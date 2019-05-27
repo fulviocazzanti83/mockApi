@@ -1,0 +1,1430 @@
+{
+  "login": {
+    "firstName": "Mario",
+    "lastName": "Rossi",
+    "token": "1235"
+  },
+  "filter": {
+    "unixStart": 1212211212,
+    "unixEnd": 1212211212,
+    "personalizzatoreID": [
+      1,
+      2,
+      4
+    ],
+    "mezzodispedizioneID": [
+      7,
+      4,
+      3
+    ],
+    "destinatarioID": [
+      8,
+      6,
+      2
+    ],
+    "bancaID": [
+      9,
+      6,
+      3
+    ]
+  },
+  "0.1personalizzatore": [
+    {
+      "id": 1,
+      "nome": "personalizzatore 1"
+    },
+    {
+      "id": 2,
+      "nome": "Persoanlizzatore 2"
+    }
+  ],
+  "0.2mezzodispedizione": [
+    {
+      "id": 1,
+      "nome": "Assicurata"
+    },
+    {
+      "id": 2,
+      "nome": "Raccomandata"
+    },
+    {
+      "id": 3,
+      "nome": " SDA"
+    }
+  ],
+  "0.3destinatario": [
+    {
+      "id": 1,
+      "nome": "TCL"
+    },
+    {
+      "id": 2,
+      "nome": "CL"
+    },
+    {
+      "id": 3,
+      "nome": "CE"
+    },
+    {
+      "id": 4,
+      "nome": "BF"
+    },
+    {
+      "id": 5,
+      "nome": "FI"
+    },
+    {
+      "id": 6,
+      "nome": "SE"
+    }
+  ],
+  "0.4banca": [
+    {
+      "id": 1,
+      "nome": "Banca 1"
+    },
+    {
+      "id": 1,
+      "nome": "Banca 2"
+    },
+    {
+      "id": 1,
+      "nome": "Banca 3"
+    },
+    {
+      "id": 1,
+      "nome": "Banca 4"
+    }
+  ],
+  "0.5regioni": [
+    {
+      "id": 1,
+      "nome": "Lombardia"
+    },
+    {
+      "id": 1,
+      "nome": "Toscana"
+    }
+  ],
+  "0.6target": [
+    {
+      "id": 1,
+      "anno": "2019",
+      "descrizione": "Assicurata",
+      "tipologia": "Consuntivo",
+      "valore": 1223
+    },
+    {
+      "id": 2,
+      "anno": "2019",
+      "descrizione": "Raccomandata",
+      "tipologia": "Consuntivo",
+      "valore": 1223
+    }
+  ],
+  "1.0tipologiaemissione": [
+    {
+      "group": "Nuova Emissione",
+      "label": "Nord",
+      "value": 1
+    },
+    {
+      "group": "Nuova Emissione",
+      "label": "Centro",
+      "value": 2
+    },
+    {
+      "group": "Nuova Emissione",
+      "label": "Sud",
+      "value": 3
+    },
+    {
+      "group": "Rinnovo",
+      "label": "Nord",
+      "value": 4
+    },
+    {
+      "group": "Rinnovo",
+      "label": "Centro",
+      "value": 5
+    },
+    {
+      "group": "Rinnovo",
+      "label": "Sud",
+      "value": 6
+    },
+    {
+      "group": "Rifacimento",
+      "label": "Nord",
+      "value": 7
+    },
+    {
+      "group": "Rifacimento",
+      "label": "Centro",
+      "value": 8
+    },
+    {
+      "group": "Rifacimento",
+      "label": "Sud",
+      "value": 9
+    },
+    {
+      "group": "Duplicati",
+      "label": "Nord",
+      "value": 10
+    },
+    {
+      "group": "Duplicati",
+      "label": "Centro",
+      "value": 11
+    },
+    {
+      "group": "Duplicati",
+      "label": "Sud",
+      "value": 12
+    }
+  ],
+  "1.1tipologiaemissione": {
+    "nord": {
+      "nuovaemissione": 12,
+      "rinnovi": 12,
+      "rifacimenti": 12,
+      "duplicati": 3
+    },
+    "centro": {
+      "nuovaemissione": 12,
+      "rinnovi": 12,
+      "rifacimenti": 12,
+      "duplicati": 3
+    },
+    "sud": {
+      "nuovaemissione": 12,
+      "rinnovi": 12,
+      "rifacimenti": 12,
+      "duplicati": 3
+    }
+  },
+  "1.2tipologiamaps": {
+    "regione": [
+      {
+        "nome": "lombardia",
+        "totale": 28231,
+        "provincia": [
+          {
+            "nome": "milano",
+            "totale": 282
+          },
+          {
+            "nome": "pavia",
+            "totale": 282
+          }
+        ]
+      },
+      {
+        "nome": "toscana",
+        "totale": 28231,
+        "provincia": [
+          {
+            "nome": "milano",
+            "totale": 282
+          },
+          {
+            "nome": "pavia",
+            "totale": 282
+          }
+        ]
+      }
+    ]
+  },
+  "2.1statospedizioni": {
+    "uscitadapersonalizzatore": 12,
+    "presaincarico": 12,
+    "intransito": 12,
+    "inconsegna": 12,
+    "disponibilealritiro": 12,
+    "consegnata": 12,
+    "restituita": 12,
+    "totale": 23
+  },
+  "2.2performance": [
+    {
+      "tipo": "personalizzatroe",
+      "lista": [
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        },
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        }
+      ]
+    },
+    {
+      "tipo": "presa in carico",
+      "lista": [
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        },
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        }
+      ]
+    }
+  ],
+  "2.3performancepuntuale": [
+    {
+      "tipo": "personalizzatroe",
+      "lista": [
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        },
+        {
+          "descrizione": "presa in carico",
+          "mediagg": 1.2,
+          "minimogg": 1.3,
+          "massimogg": 1.4
+        }
+      ]
+    }
+  ],
+  "3.1volumispedizione": [
+    {
+      "serie": {
+        "descrizione": "Assicurata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Raccomandata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    }
+  ],
+  "3.2tempispedizione": [
+    {
+      "serie": {
+        "descrizione": "Assicurata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Raccomandata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    }
+  ],
+  "4.1carteconsegnate": [
+    {
+      "serie": {
+        "descrizione": "Assicurata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Raccomandata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "SDA",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    }
+  ],
+  "5.1cartereseconsegnateytd": {
+    "torta": {
+      "valori": [
+        {
+          "testo": "Rese",
+          "valore": 12
+        },
+        {
+          "testo": "Conesgnate",
+          "valore": 12121
+        }
+      ]
+    },
+    "tabella": [
+      {
+        "testo": "Assicurata",
+        "valore": 12
+      },
+      {
+        "testo": "Raccomandata",
+        "valore": 12
+      },
+      {
+        "testo": "PRO1",
+        "valore": 12
+      }
+    ]
+  },
+  "5.2distribuzioneresiytd": [
+    {}
+  ],
+  "5.3resipercap": [
+    {
+      "descrizione": "20100",
+      "idTipologiaSpedizione": 2,
+      "tpologiaSpedizione": "Prioritaria",
+      "% resi": 12
+    },
+    {
+      "descrizione": "00100",
+      "idTipologiaSpedizione": 2,
+      "tpologiaSpedizione": "Prioritaria",
+      "% resi": 12
+    }
+  ],
+  "6.1statogiacenza": {
+    "torta": [
+      {
+        "testo": "Restituita",
+        "valore": 12
+      },
+      {
+        "testo": "Consegnata",
+        "valore": 34
+      }
+    ],
+    "lista": [
+      {
+        "descrizione": "Restituita",
+        "mediagg": 1.2,
+        "minimogg": 1.3,
+        "massimogg": 1.4
+      },
+      {
+        "descrizione": "Consegnata",
+        "mediagg": 1.2,
+        "minimogg": 1.3,
+        "massimogg": 1.4
+      }
+    ]
+  },
+  "6.2tempigiacenza": [
+    {
+      "serie": {
+        "descrizione": "Assicurata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Raccomandata",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    }
+  ],
+  "7.1consuntivospedizioni": [
+    {
+      "serie": {
+        "descrizione": "Assicurata",
+        "target": 11201,
+        "valori": [
+          {
+            "testo": "01-2019",
+            "previusvalore": 987,
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "previusvalore": 98,
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Raccomandata",
+        "target": 11201,
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valoreprecedente": 987,
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valoreprecedente": 98,
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Saving",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 2.3
+          },
+          {
+            "testo": "02-2019",
+            "valore": 3.4
+          }
+        ]
+      }
+    }
+  ],
+  "7.1anomalie": [
+    {
+      "serie": {
+        "descrizione": "Totale anomalie",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Warning",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Warning_c",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "Warning_r",
+        "valori": [
+          {
+            "testo": "01-2019",
+            "valore": 1221
+          },
+          {
+            "testo": "02-2019",
+            "valore": 121
+          }
+        ]
+      }
+    },
+    {
+      "serie": {
+        "descrizione": "spedizione",
+        "valori": [
+          {
+            "testo": "Warning_n_r",
+            "valore": 1221
+          },
+          {
+            "testo": "Warning_n_d",
+            "valore": 121
+          }
+        ]
+      }
+    }
+  ],
+  "pan": [
+    {
+      "descrizione": "417654XXXXXX4360",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "417654XXXXXX3350",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX2760",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX8900",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520998XXXXXX7060",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX2000",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX5740",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX9660",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX2810",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520345XXXXXX1260",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX0480",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX4780",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "492295XXXXXX8930",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "405785XXXXXX8730",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520345XXXXXX5510",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520345XXXXXX5330",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "405785XXXXXX5790",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "417654XXXXXX7730",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "417654XXXXXX5950",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "417654XXXXXX2870",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520998XXXXXX1290",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "417654XXXXXX7510",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX5740",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX0180",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX2110",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX2560",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520345XXXXXX1490",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX0660",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX9910",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "492295XXXXXX3270",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX8110",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520345XXXXXX9400",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "405785XXXXXX6650",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "405785XXXXXX3260",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX5560",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX1750",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX8090",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX0350",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX6480",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "453997XXXXXX9840",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX6500",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "520998XXXXXX1690",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX9350",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX2750",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "525500XXXXXX3170",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "test3",
+      "idTipologiaSpedizione": 1,
+      "dataOraUpdate": "2019-05-26T19:00:40.246Z",
+      "tpologiaSpedizione": "Assicurata"
+    },
+    {
+      "descrizione": "asdasd",
+      "idTipologiaSpedizione": 2,
+      "dataOraUpdate": "2019-05-26T19:01:47.660Z",
+      "tpologiaSpedizione": "Raccomandata"
+    }
+  ],
+  "abi": [
+    {
+      "descrizione": "03062",
+      "idTipologiaSpedizione": "R",
+      "tpologiaSpedizione": "Raccomandata",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    }
+  ],
+  "capSicurezza": [
+    {
+      "descrizione": "10121",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10122",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10123",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    }
+  ],
+  "capPilota": [
+    {
+      "descrizione": "10121",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10122",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10123",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10124",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10125",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10126",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10127",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10128",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10129",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10130",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10131",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10132",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10133",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10134",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10135",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10136",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10137",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10138",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10139",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10140",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10141",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10142",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10143",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10144",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10145",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10146",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10147",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10148",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10149",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10150",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10151",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10152",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10153",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10154",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10155",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "10156",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20121",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20122",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20123",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20124",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20125",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20126",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20127",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20128",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20129",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20130",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20131",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20132",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20133",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20134",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20135",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20136",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20137",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20138",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20139",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20140",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20141",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20142",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20143",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20144",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20145",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20146",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20147",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20148",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20149",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20150",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20151",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20152",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20153",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20154",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20155",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20156",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20157",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20158",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20159",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20160",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20161",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    },
+    {
+      "descrizione": "20162",
+      "idTipologiaSpedizione": "P",
+      "tpologiaSpedizione": "Prioritaria",
+      "dataOraUpdate": "2019-05-24T10:27:22.466+0000"
+    }
+  ]
+}
